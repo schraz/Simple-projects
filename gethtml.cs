@@ -12,7 +12,7 @@ public class Program
 public class Website
 {
     public static readonly HttpClient _client = new();
-    public string Url {get; set; }
+    public string Url { get; set; }
     public Website(string Url)
     {
         this.Url = Url;
